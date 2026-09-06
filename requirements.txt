@@ -1,0 +1,15 @@
+# Dépendances Python pour Voxy
+
+# === AUDIO CORE ===
+sounddevice>=0.4.6        # Enregistrement et lecture audio en temps réel depuis le microphone
+soundfile>=0.12.1         # Lecture et écriture de fichiers audio (WAV, FLAC, etc.)
+scipy>=1.11.0             # Traitement du signal audio (FFT, filtres)
+numpy>=1.24.0             # Calculs numériques pour le traitement du signal
+
+# === TRAITEMENT AUDIO AVANCÉ ===
+librosa>=0.10.0           # Pitch shift, time stretch, analyse audio
+
+# === INTERFACE UTILISATEUR ===
+dearpygui>=1.10.0         # Interface graphique (GPU-accelerated)
+
+# Dépendances système (Linux) : ffmpeg, xclip
